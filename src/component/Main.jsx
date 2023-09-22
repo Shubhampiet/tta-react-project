@@ -5,7 +5,7 @@ const Main = () => {
   return (
     <div className='main-div'>
       
-{/*       mainLeft-component */}
+{/*        mainLeft-component  */}
       <div className="main-left"
         <MainLeft />
       </div>
