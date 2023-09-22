@@ -1,13 +1,12 @@
 import React from 'react'
+import MainLeft from './MainLeft'
 
 const Main = () => {
   return (
     <div className='main-div'>
 <div className="main-left">
 
-    <span className="main-left-txt">
- THIS IS SOME CONTENT ALIGNED IN THE CENTER VERTICALLY AND HORIZONTALLY
-    </span>
+<MainLeft/>
     
 </div>
 <div className="main-right">
