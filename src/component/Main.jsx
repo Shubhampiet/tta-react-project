@@ -4,14 +4,15 @@ import MainLeft from './MainLeft'
 const Main = () => {
   return (
     <div className='main-div'>
-<div className="main-left">
-
-<MainLeft/>
+      
+{/*       mainLeft-component */}
+      <div className="main-left"
+        <MainLeft />
+      </div>
     
-</div>
-<div className="main-right">
- 
-</div>
+      <div className="main-right">
+
+      </div>
     </div>
   )
 }
