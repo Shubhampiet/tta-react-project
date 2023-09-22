@@ -8,13 +8,15 @@ import "./assets/css/common.css"
 function App() {
   return (
     <div className="wrapper-class">
+    // header Component
       <header className='header-class'>
         <Header />
       </header>
+    // main component
       <div className="main-class">
         <Main />
       </div>
-
+// footer component
       <footer className="footer-class">
         <Footer />
       </footer>
